@@ -70,26 +70,26 @@ function test_input($data) {
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
-  <br><br>
+  <br /><br />
   E-mail: <input type="text" name="email" value="<?php echo $email;?>">
   <span class="error">* <?php echo $emailErr;?></span>
-  <br><br>
+  <br /><br />
   Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
-  <br><br>
-  Major: </br>
+  <br /><br />
+  Major: </br />
   <?php
   foreach($majors as $key => $value){
-  echo "<input type='radio' name='major' value=$key>$value</br>";
+  echo "<input type='radio' name='major' value=$key>$value</br />";
   }
   ?>
 
   <span class="error">* <?php echo $majorErr;?></span>
-  <br><br>
+  <br /><br />
 
-  Continents:<br>
+  Continents:<br />
   <?php
   foreach($continents as $key => $value){
-  echo "<input type='checkbox' name='continent[]' value=$key>$value<br>";
+  echo "<input type='checkbox' name='continent[]' value=$key>$value<br />";
   }
   ?>
 
@@ -97,18 +97,16 @@ function test_input($data) {
 </form>
 
 <?php
-echo "<h2>Your Input:</h2>";
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $comment;
-echo "<br>";
-echo $majors[$major];
-echo "<br>";
+echo "<h1>Your Input:</h1>";
+echo "Your name is: " . $name . "<br />";
+echo "Your email is: " . $email . "<br />";
+echo "Your major is: " . $majors[$major] . "<br />";
+echo "You have been to:<ul>";
 foreach($seenContinents as $key){
-  echo $continents[$key] . ", ";
+  echo "<li>" . $continents[$key] . "</li>";
 }
+echo "</ul>";
+echo "<p>Comment: " . $comment . "</p>";
 ?>
 
 </body>
