@@ -1,5 +1,7 @@
 # cs313-03-team
   - Devin Cenatiempo
+  - Jacob Alldredge
+  
 ## I. Overview
 This assignment will help you practice basic form handling in PHP.
 
