@@ -1,7 +1,8 @@
 # cs313-03-team
   - Devin Cenatiempo
   - Jacob Alldredge
-  
+  - Tammy Dresen
+
 ## I. Overview
 This assignment will help you practice basic form handling in PHP.
 
@@ -79,7 +80,7 @@ As a part of this team activity, you are expected to look over a solution from t
 
 Please DO NOT open the solution until you have worked through this activity as a team for the one hour period. At the end of the hour, if you are still struggling with some of the core requirements, you are welcome to view the instructor's solution and use it to help you complete your own code. Even if you use the instructor's code to help you, you are welcome to report that you finished the core requirements, if you code them up yourself.
 
-After working with your team for the one hour activity, [click here for the instructor's solution.](https://github.com/byui-cs/cs313-course/tree/master/week03/ta-solution/) 
+After working with your team for the one hour activity, [click here for the instructor's solution.](https://github.com/byui-cs/cs313-course/tree/master/week03/ta-solution/)
 
 ## IV. Submission
 When you have finished this activity, please fill out the assessment in I-Learn. You are welcome to complete any additional parts of this activity by yourself or with others after your meeting before submitting the assessment.
